@@ -1,0 +1,22 @@
+Calculating your crossword...
+- - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - 
+- - - - J A N U A R Y - - - - - - 
+- - - - - - - N - - - - - - - - - 
+- S A M O R A I S - - - - - - - - 
+- - - - - I - S - - - - - H - - - 
+- - C - - K - W - - - - V A U L T 
+- - H - - K - A - - - - - L - - - 
+- - U - - E - P - - - - - B - - - 
+- - N - - I - - - - - - - O R A I 
+- - G - - S E P T E M B E R - - - 
+- - M - - O - - - - - - - N - - - 
+- Y A I . F I N A N C E - - - - - 
+- - S - - T - - - - - - - - - - - 
+
+10 out of 10
+The following files have been saved to your current working directory:
+Orai_grid.pdf Orai_key.pdf 
