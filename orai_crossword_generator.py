@@ -1,4 +1,5 @@
 import subprocess
+import numpy as np
 import os
 import argparse
 
@@ -29,7 +30,7 @@ if __name__ == '__main__':
 
     string_command_line = ["genxword",
                            args.word_list,
-                           "p",
+                           "n",
                            "-o",
                            args.owner,
                            "--grid_size",
@@ -42,7 +43,14 @@ if __name__ == '__main__':
     # os.system(string_command_line)
     output = subprocess.check_output(string_command_line, shell=True)
     output = output.decode()
-    print(output)
-    f = open("out.txt", "w+")
-    f.write(output)
-    f.close()
+    output = output.split("\n")
+    print(output[1:args.grid_size+1])
+
+    arr = []
+
+    for line in output[1:args.grid_size+1]:
+        line = line.split(" ")[:-1]
+        arr.append(line)
+
+    arr = np.array(arr)
+    print(arr.shape, arr)
